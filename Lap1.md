@@ -13,7 +13,7 @@
   rộng hoặc điều chỉnh để đáp ứng các yêu cầu mới mà không làm thay đổi toàn bộ hệ thống, được tách biệt hỗ trợ kiểm thử đơn vị và kiểm thử tích hợp tốt hơn, đảm bảo logic nghiệp vụ và xử 
   lý dữ liệu chính xác.Các tầng tách biệt theo chức năng giúp hệ thống dễ bảo trì và kiểm tra lỗi, cải thiện năng suất quản lý và bảo trì hệ thống.
 - Ý nghĩa từng phần trong kiến trúc:
-- 
+  
    +)	Tầng giao diện người dùng(Presentation):Đây là tầng chịu trách nhiệm hiển thị thông tin và cung cấp giao diện để người dùng tương tác với hệ thống.
   
    +)Tầng ứng dụng (Application Layer):Tầng trung gian, xử lý các yêu cầu từ tầng giao diện và điều phối nghiệp vụ. Tầng này thực hiện các quy trình logic nghiệp vụ và đảm bảo tính nhất                                           quán của dữ liệu khi có thay đổi.
