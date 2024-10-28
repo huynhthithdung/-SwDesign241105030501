@@ -13,10 +13,12 @@
   rộng hoặc điều chỉnh để đáp ứng các yêu cầu mới mà không làm thay đổi toàn bộ hệ thống, được tách biệt hỗ trợ kiểm thử đơn vị và kiểm thử tích hợp tốt hơn, đảm bảo logic nghiệp vụ và xử 
   lý dữ liệu chính xác.Các tầng tách biệt theo chức năng giúp hệ thống dễ bảo trì và kiểm tra lỗi, cải thiện năng suất quản lý và bảo trì hệ thống.
 - Ý nghĩa từng phần trong kiến trúc:
+- 
    +)	Tầng giao diện người dùng(Presentation):
       Chức năng:Tầng này quản lý việc tương tác với người dùng , bao gồm hiển thị thông tin, nhận đầu vào và cung cấp phản hồi cho người dùng.
       Thành phần:Các giao diện người dùng như trang web, ứng dụng di động, hoặc giao diện desktop.
       Ý nghĩa: Tầng này tách biệt giao diện và logic nghiệp vụ, giúp dễ dàng thay đổi cách hiển thị thông tin mà không ảnh hưởng đến logic xử lý của hệ thống.
+  
    +)Tầng ứng dụng:
       Chức năng: Xử lý các quy tắc nghiệp vụ, như tính toán tiền lương, xác thực và xử lý dữ liệu chấm công, cũng như xử lý thanh toán.
       Thành phần: Các controller và dịch vụ như PayrollService, TimeTrackingService.
