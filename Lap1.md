@@ -16,19 +16,23 @@
 - 
    +)	Tầng giao diện người dùng(Presentation):
   
-      Chức năng:Tầng này quản lý việc tương tác với người dùng , bao gồm hiển thị thông tin, nhận đầu vào và cung cấp phản hồi cho người dùng.
+      Chức năng:Tầng này quản lý việc tương tác với người dùng , bao gồm hiển thị thông tin,
+                  nhận đầu vào và cung cấp phản hồi cho người dùng.
   
       Thành phần:Các giao diện người dùng như trang web, ứng dụng di động, hoặc giao diện desktop.
   
-      Ý nghĩa: Tầng này tách biệt giao diện và logic nghiệp vụ, giúp dễ dàng thay đổi cách hiển thị thông tin mà không ảnh hưởng đến logic xử lý của hệ thống.
+      Ý nghĩa: Tầng này tách biệt giao diện và logic nghiệp vụ, giúp dễ dàng thay đổi
+               cách hiển thị thông tin mà không ảnh hưởng đến logic xử lý của hệ thống.
   
    +)Tầng ứng dụng:
   
-      Chức năng: Xử lý các quy tắc nghiệp vụ, như tính toán tiền lương, xác thực và xử lý dữ liệu chấm công, cũng như xử lý thanh toán.
+      Chức năng: Xử lý các quy tắc nghiệp vụ, như tính toán tiền lương,
+                 xác thực và xử lý dữ liệu chấm công, cũng như xử lý thanh toán.
   
       Thành phần: Các controller và dịch vụ như PayrollService, TimeTrackingService.
   
-      Ý nghĩa: Tầng này đảm nhận logic nghiệp vụ, đảm bảo rằng các quy trình xử lý nghiệp vụ có thể được tái sử dụng và thay đổi dễ dàng mà không ảnh hưởng đến các tầng khác.
+      Ý nghĩa: Tầng này đảm nhận logic nghiệp vụ, đảm bảo rằng các quy trình xử lý nghiệp vụ có thể được tái sử dụng
+                 và thay đổi dễ dàng mà không ảnh hưởng đến các tầng khác.
 
   +) Tầng dữ liệu:
   
@@ -36,7 +40,8 @@
 
      Thành phần: Các thành phần truy cập dữ liệu như Repository và DAO (Data Access Object).
 
-     Ý nghĩa: Tách biệt việc quản lý dữ liệu giúp dễ dàng thay đổi cách thức lưu trữ (chẳng hạn như thay đổi từ SQL sang NoSQL) mà không ảnh hưởng đến các tầng khác.
+     Ý nghĩa: Tách biệt việc quản lý dữ liệu giúp dễ dàng thay đổi cách
+              thức lưu trữ (chẳng hạn như thay đổi từ SQL sang NoSQL) mà không ảnh hưởng đến các tầng khác.
 
   
 package:
