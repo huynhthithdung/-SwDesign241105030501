@@ -71,7 +71,7 @@ package:
 
 -  Biểu đồ Lớp cho ca sử dụng Maintain Timecard:
 
-![](https://www.planttext.com/api/plantuml/png/R911Yi8m58RtESMxWBZlGWITtGY22cwVQR31zBMapu7UPXHc8nG6PbQwS17m7Zs1Lp1150tT9l_tVtzoFPs75QFbRMv4jT44jgYKGCc5XKMbh2ZzfPQwH6Buo4jJr4gz7SvrhYJQT8A4wmYOOcqBOyR8k4BVAq8bz0OnbC0ySuUyFsjF3VQNxW-V2H550_tOaS1dU_ofWJFtJsjWFvyojoVuqkv0NMGqo1TSVhUlF3-qKR9pzDBjf3UsnuR0-A8kOtXn0YEVAUzH3hfloa06gHWgIiFdtm000F__0m00)
+![](https://www.planttext.com/api/plantuml/png/f59B2i8m4DtFAR9Kq0iKaIxiJi65u7fiXXgQDYMJ2aKycGkFv1LC-aEgAyqY92zlthoPpFF-YDcXTNMX0JXNfR262LADpEAW2ahHId454PP4Hv7O-Bsxjv615BNK3gHIJg6pgIqVZSr9-d1ALO4QRZ39iiCICx93CfHoU4bAPviP5PKs3Ndbf3yjXEiPqQWoxwBhAfZzGq2Ifby5njBss5YZjUyOdf1fA2qZzowiYBz8poEnLUnM0tFTznmllxk2QQ-No_M7IPW2WJIE0a3iVpYComi00F__0m00)
 
 - Giải thích:
 
