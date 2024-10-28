@@ -58,3 +58,29 @@ package:
 
 - PayrollDatabase: Quản lý việc truy xuất và lưu trữ thông tin liên quan đến thanh toán. PayrollDatabase cung cấp phương thức để lấy dữ liệu nhân viên và lưu lại kết quả thanh toán.
 
+4.Phân tích ca sử dụng Maintain Timecard:
+
+- Timecard: Chứa thông tin về thời gian làm việc của nhân viên.
+
+- TimecardManager: Lớp này xử lý việc thêm, sửa đổi và xóa các mục ghi thời gian.
+
+- PayrollDatabase: Cũng sử dụng để lưu trữ và truy xuất dữ liệu liên quan đến thời gian làm việc.
+
+- Biểu đồ Sequence cho ca sử dụng Maintain Timecard:
+  ![](https://www.planttext.com/api/plantuml/png/R911Yi8m58RtESMxWBZlGWITtGY22cwVQR31zBMapu7UPXHc8nG6PbQwS17m7Zs1Lp1150tT9l_tVtzoFPs75QFbRMv4jT44jgYKGCc5XKMbh2ZzfPQwH6Buo4jJr4gz7SvrhYJQT8A4wmYOOcqBOyR8k4BVAq8bz0OnbC0ySuUyFsjF3VQNxW-V2H550_tOaS1dU_ofWJFtJsjWFvyojoVuqkv0NMGqo1TSVhUlF3-qKR9pzDBjf3UsnuR0-A8kOtXn0YEVAUzH3hfloa06gHWgIiFdtm000F__0m00)
+
+-  Biểu đồ Lớp cho ca sử dụng Maintain Timecard:
+
+![](https://www.planttext.com/api/plantuml/png/R911Yi8m58RtESMxWBZlGWITtGY22cwVQR31zBMapu7UPXHc8nG6PbQwS17m7Zs1Lp1150tT9l_tVtzoFPs75QFbRMv4jT44jgYKGCc5XKMbh2ZzfPQwH6Buo4jJr4gz7SvrhYJQT8A4wmYOOcqBOyR8k4BVAq8bz0OnbC0ySuUyFsjF3VQNxW-V2H550_tOaS1dU_ofWJFtJsjWFvyojoVuqkv0NMGqo1TSVhUlF3-qKR9pzDBjf3UsnuR0-A8kOtXn0YEVAUzH3hfloa06gHWgIiFdtm000F__0m00)
+
+- Giải thích:
+
+   - Timecard: chứa thông tin chi tiết về một mục ghi thời gian, bao gồm ngày, thời gian bắt đầu, thời gian kết thúc, và tổng số giờ làm việc được tính toán.
+ 
+   - TimecardManager:  xử lý tất cả các hoạt động liên quan đến ghi thời gian, như thêm, sửa đổi và xóa các mục ghi thời gian. Nó tương tác với Employee và PayrollDatabase để thực hiện các hành động này.
+ 
+   - PayrollDatabase:  lưu trữ và quản lý dữ liệu liên quan đến thời gian làm việc. Nó cung cấp phương thức để lưu và truy xuất các mục ghi thời gian cho nhân viên.
+ 
+5. Hợp nhất kết quả phân tích
+
+   
