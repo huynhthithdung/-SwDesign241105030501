@@ -1,9 +1,13 @@
 1.Phân tích kiến trúc:
 - Đề xuất kiến trúc : Kiến trúc  tầng.
    Kiến trúc này chia hệ thống thành ba tầng:
+  
     +)	Tầng giao diện người dùng(Presentation Layer)
+  
     +)  Tầng ứng dụng(Application Layer)
+  
   	+)  Tầng truy cập dữ liệu(Data Access Layer).
+  
 - Lý do lựa chọn kiến trúc này:
   Mỗi tầng thực hiện chức năng độc lập, cho phép thay đổi một tầng mà không ảnh hưởng đến các tầng khác, đặc biệt hữu ích khi cần bảo trì hoặc nâng cấp hệ thống.Các tầng có thể dễ dàng mở 
   rộng hoặc điều chỉnh để đáp ứng các yêu cầu mới mà không làm thay đổi toàn bộ hệ thống, được tách biệt hỗ trợ kiểm thử đơn vị và kiểm thử tích hợp tốt hơn, đảm bảo logic nghiệp vụ và xử 
